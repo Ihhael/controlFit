@@ -4,7 +4,7 @@ Reglas de este proyecto para cualquier agente de OpenCode. Versión: 0.1.0.
 
 ## Proyecto
 
-[Nombre de tu proyecto]: [una frase de qué es y para quién]. *(Rellénalo tú.)*
+controlFit: Aplicación centrada en crear rutinas, registrar ejercicios, controlar series y repeticiones, anotar pesos y consultar la evolución. Está orientada a personas de a pie que les guste hacer ejercicio y quieran llevar un control de sus sesiones, así como a entrenadores de gimnasio para llevar el control de las sesiones de sus clientes.
 
 ## Reglas
 
