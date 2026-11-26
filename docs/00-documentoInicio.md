@@ -10,7 +10,7 @@
 | ---------------------------- | ------------------------------------------------------------ |
 | **Nombre y apellidos**       | Ismael Brito Monar                                           |
 | **Usuario de GitHub**        | Ihhael                                                       |
-| **Repositorio del proyecto** | *[Proyecto-daw-brito](https://github.com/Ihhael/Proyecto-daw-brito)* |
+| **Repositorio del proyecto** | *[controlFit](https://github.com/Ihhael/controlFit)* |
 | **Ciclo y curso**            | DAW, 2.º · curso 2026-27                                     |
 | **Fecha**                    | 2026-11-06                                                   |
 

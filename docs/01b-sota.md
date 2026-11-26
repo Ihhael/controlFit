@@ -17,14 +17,14 @@ La persona que acude al gimnasio a entrenar con pesas necesita un medio para **r
 
 ## 2. Soluciones existentes (CE 1a, 1c, 2a)
 
-| Solución               | Para quién                 | Qué hace                                                     | Modelo de precio        | Enlace y fecha de acceso      |
-| ---------------------- | -------------------------- | ------------------------------------------------------------ | ----------------------- | ----------------------------- |
-| **Gympass**            | Gimnasios y entrenadores   | Plataforma **B2B2C**: gestiona clientes, rutinas y control de entrenamiento | Suscripción empresarial | `gympass.com` — 2026-11       |
-| **ClassPass**          | Deportistas                | **Marketplace B2C** de clases y entrenamientos               | Freemium / suscripción  | `classpass.com` — 2026-11     |
-| **Fitbod**             | Deportistas individuales   | **App B2C** personalizada de entrenamiento                   | Suscripción             | `fitbod.com` — 2026-11        |
-| **TrainingPeaks**      | Deportistas de resistencia | Registro y planificación de entrenamiento                    | Freemium                | `trainingpeaks.com` — 2026-11 |
-| **Zebris**             | Deportistas de fuerza      | **Hardware de conteo + app** de registro                     | Licencia                | `zebris.com` — 2026-11        |
-| **Nike Training Club** | Deportistas B2C            | Entrenamientos guiados                                       | Gratuita                | `nike.com` — 2026-11          |
+| Solución               | Para quién                 | Qué hace                                                     | Modelo de precio        | Enlace y fecha de acceso      | Estado (`leído` / `sin leer`) |
+| ---------------------- | -------------------------- | ------------------------------------------------------------ | ----------------------- | ----------------------------- | ---------------------------- |
+| **Gympass**            | Gimnasios y entrenadores   | Plataforma **B2B2C**: gestiona clientes, rutinas y control de entrenamiento | Suscripción empresarial | https://www.gympass.com/ · 2026-11-26 | `sin leer` |
+| **ClassPass**          | Deportistas                | **Marketplace B2C** de clases y entrenamientos               | Freemium / suscripción  | https://www.classpass.com/ · 2026-11-26 | `leído` |
+| **Fitbod**             | Deportistas individuales   | **App B2C** personalizada de entrenamiento                   | Suscripción             | https://www.fitbod.com/ · 2026-11-26 | `sin leer` |
+| **TrainingPeaks**      | Deportistas de resistencia | Registro y planificación de entrenamiento                    | Freemium                | https://www.trainingpeaks.com/ · 2026-11-26 | `leído` |
+| **Zebris**             | Deportistas de fuerza      | **Hardware de conteo + app** de registro                     | Licencia                | https://www.zebris.com/ · 2026-11-26 | `sin leer` |
+| **Nike Training Club** | Deportistas B2C            | Entrenamientos guiados                                       | Gratuita                | https://www.nike.com/ · 2026-11-26 | `leído` |
 
 *Figura: comparativa de las soluciones estudiadas.*
 

@@ -64,6 +64,13 @@
 
   La necesidad priorizada (N-01) se considera la **oportunidad principal** del proyecto: la digitalización del control de las **sesiones de entrenamiento de fuerza**. El **dato cuantitativo** que la sustenta es el tamaño estimado del **mercado global de aplicaciones de fitness** (del orden de los **4.000 millones de euros**, estimación de informes sectoriales que deberá verificarse en sus fuentes), lo que avala la viabilidad de una solución especializada en este nicho.
 
+  **Fuente del dato cuantitativo** (fecha de acceso: **2026-11-26**):
+
+  - **Statista** — [Fitness Apps - Worldwide](https://www.statista.com/outlook/hmo/digital-health/digital-fitness-well-being/health-wellness-coaching/fitness-apps/worldwide/): el mercado global de **fitness apps** se valoró en **9.120 M$** (USD) en 2026 y se prevé que alcance **15.450 M$** en 2031 (CAGR 11,12 %). Estado: `leído`.
+  - **Grand View Research** — [Fitness Apps Market](https://www.grandviewresearch.com/industry-analysis/fitness-app-market): el mercado se valoró en **12.100 M$** en 2025, **13.900 M$** en 2026 y se prevé **33.600 M$** para 2033 (CAGR 13,4 %). Estado: `sin leer` (no pude abrir la página en este momento).
+
+  **Sobre la cifra:** la estimación del **mercado global de aplicaciones de fitness** en **4.000 millones de euros** es una aproximación del sector. Con las fuentes consultadas (2026-11-26) los valores publicados están en torno a los **9.120 M$** (Statista, 2026) y los **12.100 M$** (Grand View Research, 2025); **queda pendiente** contrastar la cifra con la fuente original antes de usarla en la memoria.
+
   ## 3. Tipo de proyecto elegido (CE 1e)
 
   Se ha elegido como respuesta del proyecto la **aplicación web ControlFit**, que da respuesta a la necesidad de llevar el control de las sesiones de entrenamiento (rutinas, series, repeticiones, cargas) y de consultar la evolución.
@@ -90,6 +97,14 @@
   | REST-01 | El desarrollo se realizará con **Java 21 y Spring Boot**, sobre **base de datos SQL**, según lo previsto en el documento de inicio. | restricción                                   | Revisión del código y del entorno de desarrollo.             |
   | REST-02 | La **versión mínima funcional** debe estar disponible antes del **31-mar-2027**. | restricción                                   | Seguimiento con el tablero Kanban (GitHub Projects).         |
 
+  ### Objetivos
+
+  | ID     | Objetivo                                                                                                      | Cómo se mide                                                                                     |
+  | ------ | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+  | OBJ-01 | Que una persona cree una rutina de ejercicio con ejercicios y series/reps                                     | La prueba **P-02**: creación de rutina → persistencia → listado                                 |
+  | OBJ-02 | Que una persona registre una sesión de entrenamiento con ejercicios, series, repeticiones y carga               | La prueba **P-03**: registro de sesión → actualización del historial                            |
+  | OBJ-03 | Que una persona acceda a su información con sus propias credenciales                                           | La prueba **P-01**: alta válida → cuenta activada; credenciales correctas → acceso concedido       |
+
   ### 4.2. Matriz de trazabilidad
 
   | Objetivo                                | Requisito | Caso de uso | Pantalla o endpoint | Prueba o indicador |
@@ -104,15 +119,36 @@
 
   ## 6. Ayudas y subvenciones (CE 1h)
 
-  - **Ayuda identificada**: **Next for Industry** (CDTI), dentro de las ayudas de **Next Generation EU** para la digitalización de pymes y empresas. Requisitos y plazo de la convocatoria vigente deben confirmarse con el tutor.
+  - **Ayuda identificada**: **Next for Industry** (CDTI), dentro de las ayudas de **Next Generation EU** para la digitalización de pymes y empresas.
+
+  **Ficha de la ayuda** (investigada el 2026-11-26; los requisitos y el plazo de la convocatoria vigente deben confirmarse con el tutor):
+
+  | Dato | Contenido |
+  | ---- | ---------- |
+  | Ayuda | Programa **Kit Digital** (en el marco de las ayudas de **Next Generation EU**, gestionado por el **CDTI** y la **Red.es**) |
+  | Convocatoria | [Orden TDF/39/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2070) (BOE núm. 25, de 28-01-2026), que modifica las bases reguladoras de las ayudas **Kit Digital** (Orden ETD/1498/2021) |
+  | Quién puede pedirla | Pymes y microempresas de España (segmentos I, II y III) |
+  | Qué cubre | Digitalización de pymes: creación o mejora de sitio web, comercio electrónico, gestión de procesos, factura electrónica, etc. |
+  | Cuánto | Hasta **12.000 €** (segmento I), **6.000 €** (segmento II) y **3.000 €** (segmento III); presupuesto total de la convocatoria: **3.067.000.000 €** |
+  | Plazo | Convocatoria abierta a presentación de solicitudes: del **12-12-2024 al 30-06-2025**; la convocatoria **está cerrada** desde el **31-10-2025** |
+  | Cómo se solicita | Vía telemática en la sede electrónica del programa |
+  | Estado | **Cerrada** (consultada el 2026-11-26) |
+
+  **Fuentes** (fecha de acceso: **2026-11-26**): [Orden TDF/39/2026 del BOE](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2070) · `leído`; [Ayudas Digitalización - Next Generation EU](https://nexteugeneration.com/ayudas-digitalizacion/) · `sin leer`.
 
   ## 7. Guion de trabajo (CE 1i)
 
-  - **Fase 0 · Inicio** (6-nov-2026): repositorio, documentación inicial y primer PR aprobado.
-  - **Fase 1 · Análisis** (6-nov a 26-nov-2026): entrega **H1** (análisis y documentación inicial).
-  - **Fase 2 · Diseño** (26-nov a 11-dic-2026): entrega **H2** (diseño y planificación).
-  - **Fase 3 · Planificación** (10-dic a 21-ene-2027): entrega **H2**.
-  - **Fase 4 · Implementación** (21-ene a 31-mar-2027): desarrollo, pruebas y despliegue.
+  Fechas copiadas de `docs/fases-del-proyecto.md` del repositorio del curso el 2026-11-19; son **provisionales** hasta que se apruebe el calendario del centro. No hay tablero de GitHub Projects todavía: **pendiente**.
+
+  | Fase | Fechas | Tareas principales | Responsable | Hito |
+  | ---- | ------ | ------------------- | ----------- | ---- |
+  | 1 · Análisis | 6-nov a 26-nov-2026 | Documentación inicial, análisis y estado del arte | Ihhael; el tutor revisa el PR | **H1** 26-nov |
+  | 2 · Diseño | 26-nov a 10-dic-2026 | Diseño y planificación | Ihhael | sin hito |
+  | 3 · Planificación | 10-dic a 21-ene-2027 | Cronograma, riesgos y presupuesto | Ihhael | **H2** 21-ene |
+  | 4 · Implementación | 21-ene a 31-mar-2027 | Desarrollo, pruebas y despliegue | Ihhael | sin hito |
+  | 5 · Pruebas | 1-abr a 23-abr-2027 | Pruebas y despliegue | Ihhael | sin hito |
+  | 6 · Despliegue | 26-abr a 7-may-2027 | Publicación y guía de uso | Ihhael | **H3** 7-may |
+  | 7 · Seguimiento, control y cierre | 11-feb a 18-jun-2027 | Registro semanal, memoria y defensa | Ihhael; el tutor evalúa | sin hito |
 
   ## 8. Glosario
 
